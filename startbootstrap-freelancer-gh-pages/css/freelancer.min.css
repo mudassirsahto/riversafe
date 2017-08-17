@@ -131,6 +131,7 @@ section {
         color: #fff;
         font-family:'Viner Hand ITC';
         text-transform:none;
+        
     }
 
         #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -577,4 +578,14 @@ footer {
 
 .btn.active, .btn:active, .btn:focus {
     outline: 0;
+}
+
+#logoimg{
+    width:500px;
+    height:80px;
+}
+
+#iconimg{
+    width:50px;
+    height:50px;
 }
