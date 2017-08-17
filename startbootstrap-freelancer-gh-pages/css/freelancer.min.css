@@ -212,7 +212,9 @@ header.masthead {
     text-align: center;
     color: #fff;
    
-    background-image: url("../img/yarra.png");
+    background-image: url("../img/yarra.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 
     header.masthead img {
