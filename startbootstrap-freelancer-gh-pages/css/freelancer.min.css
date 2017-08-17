@@ -188,12 +188,12 @@ section {
         #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
             color: #fff;
             border-radius: 3px;
-            background: #18bc9c;
+            background-color:skyblue;
         }
 
             #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
                 color: #fff;
-                background: #18bc9c;
+                background-color:skyblue;
             }
 
         #mainNav.navbar-shrink {
@@ -520,8 +520,8 @@ footer {
 .btn-success {
     font-weight: 700;
     color: #fff;
-    border-color: #18bc9c;
-    background-color: #18bc9c;
+    border-color:skyblue;
+    background-color:skyblue;
 }
 
     .btn-success.focus, .btn-success:focus {
@@ -532,8 +532,8 @@ footer {
 
     .btn-success:hover {
         color: #fff;
-        border-color: #11866f;
-        background-color: #128f76;
+        border-color:deepskyblue;
+        background-color: deepskyblue;
     }
 
     .btn-success.active, .btn-success:active, .open > .btn-success.dropdown-toggle {
