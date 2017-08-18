@@ -21,118 +21,8 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 <style>
-          .checkbox label:after, 
-.radio label:after {
-    content: '';
-    clear: both;
-}
-
-.radio .cr {
-    position: relative;
-    display: inline-block;
-    border: 1px solid #a9a9a9;
-    border-radius: .25em;
-    width: 1.3em;
-    height: 1.3em;
-    float: left;
-    margin-right: .5em;
-}
-
-.radio .cr {
-    border-radius: 50%;
-}
-
-.checkbox .cr .cr-icon,
-.radio .cr .cr-icon {
-    position: absolute;
-    font-size: .8em;
-    line-height: 0;
-    top: 50%;
-    left: 20%;
-}
-
-.radio .cr .cr-icon {
-    margin-left: 0.04em;
-}
-
-.checkbox label input[type="checkbox"],
-.radio label input[type="radio"] {
-    display: none;
-}
-
-.checkbox label input[type="checkbox"] + .cr > .cr-icon,
-.radio label input[type="radio"] + .cr > .cr-icon {
-    transform: scale(3) rotateZ(-20deg);
-    opacity: 0;
-    transition: all .3s ease-in;
-}
-
-.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
-.radio label input[type="radio"]:checked + .cr > .cr-icon {
-    transform: scale(1) rotateZ(0deg);
-    opacity: 1;
-}
-
-.checkbox label input[type="checkbox"]:disabled + .cr,
-.radio label input[type="radio"]:disabled + .cr {
-    opacity: .5;
-}
-      </style>
-      <script>
-         function display()
-          {
-             if ($('#cba').is(":checked")) {
-                 // it is checked
-                 $('#darling').removeClass('alert-danger');
-                 $('#darling').addClass('alert-success');
-             }
-             else {
-                 $('#darling').removeClass('alert-success');
-                 $('#darling').addClass('alert-danger');
-             }
-
-            
-         }
-
-         function display1() {
-             if ($('#cba1').is(":checked")) {
-                 // it is checked
-                 $('#darling1').removeClass('alert-danger');
-                 $('#darling1').addClass('alert-success');
-             }
-             else {
-                 $('#darling1').removeClass('alert-success');
-                 $('#darling1').addClass('alert-danger');
-             }
-         }
-
-         function display2() {
-             if ($('#cba2').is(":checked")) {
-                 // it is checked
-                 $('#darling2').removeClass('alert-danger');
-                 $('#darling2').addClass('alert-success');
-             }
-             else {
-                 $('#darling2').removeClass('alert-success');
-                 $('#darling2').addClass('alert-danger');
-             }
-         }
-
-         function display3() {
-             if ($('#cba3').is(":checked")) {
-                 // it is checked
-                 $('#darling3').removeClass('alert-danger');
-                 $('#darling3').addClass('alert-success');
-             }
-             else {
-                 $('#darling3').removeClass('alert-success');
-                 $('#darling3').addClass('alert-danger');
-             }
-         }
-      </script>
-
   </head>
-    
+
   <body class="index" id="page-top">
 
     <!-- Navigation -->
@@ -446,44 +336,13 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-sm-12">
-
-                      
-                    <div class="checkbox">
-                <label id="darling" style="font-size: 2em">
-                <input id="cba" type="checkbox" value="" onclick="display();">
-                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                    Life Jacket
-                </label>
-                </div>
-                    <div class="checkbox">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label id="darling1" style="font-size: 2em">
-                <input id="cba1" type="checkbox" value="" onclick="display1();">
-                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                Bailer/Bucket/fire bucket
-                </label>
-                </div>
-                    <div class="checkbox">
-                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label id="darling2" style="font-size: 2em">
-                <input id="cba2" type="checkbox" value="" onclick="display2();">
-                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                Fire Extinguisher
-                </label>
-                </div>
-                    <div class="checkbox">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <label id="darling3" style="font-size: 2em">
-                <input id="cba3" type="checkbox" value="" onclick="display3();">
-                <span class="cr"><i class="cr-icon fa fa-check"></i></span>
-                First Aid Kit
-                </label>
-                </div>
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Project Title</h2>
                   <hr class="star-primary">
-                  <!--<img class="img-fluid img-centered" src="img/portfolio/cake.png" alt=""> -->
-                    
-                
-                  <p>Please check the following items before visiting river side.
+                  <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
+                  <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
+                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
                   <ul class="list-inline item-details">
                     <li>Client:
                       <strong>
@@ -504,6 +363,7 @@
                   <button class="btn btn-success" type="button" data-dismiss="modal">
                     <i class="fa fa-times"></i>
                     Close</button>
+                </div>
               </div>
             </div>
           </div>
